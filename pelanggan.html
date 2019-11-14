@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Welcome - Order Coffee</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/form-validation.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+    <div class="container">
+            <div class="py-2 text-center">
+                <img class="d-block mx-auto mb-4" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+                <h4 class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="text-muted">Customer</span>
+                        <span class="badge badge-secondary badge-pill"><i class="fa fa-clock"></i> History</span>
+                      </h4>
+            </div>
+            <div class="row">
+                    <div class="col-md-12 order-md-2 mb-4">
+            <div class="col-md-8 order-md-1">
+                    <form class="needs-validation" novalidate="">
+                        <div class="row cust-form">
+                            <div class="col-md-6 mb-3">
+                                <label for="firstName">Customer Name</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                                <div class="invalid-feedback">
+                                    Valid customer name is required.
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="lastName">Persons</label>
+                                <input type="number" class="form-control" id="lastName" placeholder="" value="" required="">
+                                <div class="invalid-feedback">
+                                    Valid persons is required.
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="country">Type</label>
+                                <select class="custom-select d-block w-100" id="country" required="">
+                                    <option value="">Choose...</option>
+                                    <option>Dine In</option>
+                                    <option>Take Away</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Please select a valid type.
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="mb-4">
+                        <a href="menu.html" class="btn btn-primary btn-lg btn-block">
+                            Choose Menu
+                        </a>
+                    </form>
+                </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js"><\/script>')
+    </script>
+    <script src="assets/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+    <script src="assets/js/form-validation.js"></script>
+</body>
+
+</html>
